@@ -51,5 +51,7 @@ function calculateCosts(basePrice, numPeople, materialType){
     var finalMarkup = addedMarkup + 1;
     
     var finalCost = flatMarkupCost*finalMarkup;
-    return finalCost;
+    var finalCostRounded = Math.round(finalCost*100)/100;
+    
+    return finalCostRounded;
 }
