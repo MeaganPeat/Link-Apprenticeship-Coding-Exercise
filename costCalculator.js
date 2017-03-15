@@ -5,7 +5,16 @@ function calculateCosts(basePrice, numPeople){
     var numPeopleMarkup = 0.012;
     
     var basePrice = basePrice;
-    var numPeople = numPeople;
+    
+    //check if the number of people is provided (as a number)
+    if(numPeople&&numPeople!=NaN){
+        //use that value
+        var numPeople = numPeople;
+    } else {
+        //assume one person
+        var numPeople = 1;
+    }
+    
     
     var finalCost = basePrice*flatMarkup;
     return finalCost;
