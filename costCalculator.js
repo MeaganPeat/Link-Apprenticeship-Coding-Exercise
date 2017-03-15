@@ -1,5 +1,5 @@
 // write a function to calculate costs
-function calculateCosts(basePrice, numPeople){
+function calculateCosts(basePrice, numPeople, materialType){
     ////MARKUP VALUES////
     var flatMarkup = 1.05;
     var numPeopleMarkup = 0.012;
@@ -16,6 +16,7 @@ function calculateCosts(basePrice, numPeople){
     ////GET PARAMETERS////
     var basePrice = basePrice;
     
+    //for number of people
     //check if the number of people is provided (as a number)
     if(numPeople&&numPeople!=NaN){
         //use that value
@@ -23,7 +24,7 @@ function calculateCosts(basePrice, numPeople){
     } else {
         //assume one person
         var numPeople = 1;
-    }
+    }   
     
     
     ////CALCULATE////
