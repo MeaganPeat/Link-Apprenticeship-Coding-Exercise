@@ -26,10 +26,26 @@ function calculateCosts(basePrice, numPeople, materialType){
         var numPeople = 1;
     }   
     
+    //for materialType
+    //check if there is a provided material and if it matches
+    if(materialType){
+        var materialType = materialType;
+        var material = materialType.toLocaleLowerCase();
+        if(material == 'drug'||
+           material == 'drugs'||
+           material == 'pharma' || 
+           material == 'pharmaceuticals'){
+            materialMarkup = drugMarkup;
+        } else {
+            materialMarkup = 0;
+        }
+    } else {
+        materialMarkup = 0;
+    }
     
     ////CALCULATE////
     var flatMarkupCost = basePrice*flatMarkup;
-    var addedMarkup = numPeople*numPeopleMarkup;
+    var addedMarkup = numPeople*numPeopleMarkup + materialMarkup;
     var finalMarkup = addedMarkup + 1;
     
     var finalCost = flatMarkupCost*finalMarkup;
