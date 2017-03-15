@@ -1,10 +1,10 @@
 // write a function to calculate costs
 function calculateCosts(basePrice, numPeople){
-    //markups
+    ////MARKUP VALUES////
     var flatMarkup = 1.05;
     var numPeopleMarkup = 0.012;
     
-    //get the parameters
+    ////GET PARAMETERS////
     var basePrice = basePrice;
     
     //check if the number of people is provided (as a number)
@@ -16,7 +16,12 @@ function calculateCosts(basePrice, numPeople){
         var numPeople = 1;
     }
     
-    //make the calculations
-    var finalCost = basePrice*flatMarkup;
+    
+    ////CALCULATE////
+    var flatMarkupCost = basePrice*flatMarkup;
+    var addedMarkup = numPeople*numPeopleMarkup;
+    var finalMarkup = addedMarkup + 1;
+    
+    var finalCost = flatMarkupCost*finalMarkup;
     return finalCost;
 }
