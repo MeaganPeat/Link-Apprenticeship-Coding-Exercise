@@ -3,11 +3,7 @@ function calculateCosts(basePrice, numPeople, materialType){
     ////MARKUP VALUES////
     var flatMarkup = 1.05;
     var numPeopleMarkup = 0.012;
-    
-//    * If pharmaceuticals are involved, there is an immediate 7.5% markup
-//    * For food, there is a 13% markup
-//    * Electronics require a 2% markup
-//    * Everything else, there is no markup
+
     var materialMarkup;
     var drugMarkup = 0.075;
     var foodMarkup = 0.13;
@@ -36,10 +32,16 @@ function calculateCosts(basePrice, numPeople, materialType){
            material == 'pharma' || 
            material == 'pharmaceuticals'){
             materialMarkup = drugMarkup;
+        } else if(material == 'food'){
+            materialMarkup = foodMarkup;
+        } else if(material == 'electronics'){
+            materialMarkup = electronicsMarkup;
         } else {
+            //if its anything else
             materialMarkup = 0;
         }
     } else {
+        //if no material was provided
         materialMarkup = 0;
     }
     
