@@ -1,3 +1,5 @@
 // write a function to calculate costs
-function calculateCosts(){
+function calculateCosts(basePrice){
+  var basePrice = basePrice;
+  return basePrice;
 }
