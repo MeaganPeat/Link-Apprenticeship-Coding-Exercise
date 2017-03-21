@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/MeaganPeat/Link-Apprenticeship-Coding-Exercise/issues"
   },
-  "homepage": "https://github.com/MeaganPeat/Link-Apprenticeship-Coding-Exercise#readme"
+  "homepage": "https://github.com/MeaganPeat/Link-Apprenticeship-Coding-Exercise#readme",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
 }
