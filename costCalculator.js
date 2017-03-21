@@ -55,3 +55,12 @@ function calculateCosts(basePrice, numPeople, materialType){
     
     return finalCostRounded;
 }
+
+//Example One
+console.log("Example one costs $"+calculateCosts(1299.992, 3, "food")+'.');
+
+//Example Two
+console.log("Example two costs $" + calculateCosts(5432, 1, "drugs")+'.');
+
+//Example Three
+console.log("Example three costs $" + calculateCosts(12456.95, 4, "books")+'.');
