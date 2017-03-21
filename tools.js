@@ -1,7 +1,7 @@
-var tools = function(tools){
+module.exports = {
 
     // write a function to calculate costs
-    tools.calculateCosts(basePrice, numPeople, materialType){
+    calculateCosts(basePrice, numPeople, materialType){
         ////MARKUP VALUES////
         var flatMarkup = 1.05;
         var numPeopleMarkup = 0.012;
@@ -57,7 +57,4 @@ var tools = function(tools){
 
         return finalCostRounded;
     }   
-    
-    
-    return tools;
-}(tools||{});
+}
