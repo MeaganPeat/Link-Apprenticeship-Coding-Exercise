@@ -1,0 +1,5 @@
+The problem itself was easy to understand and implement. The logic part was easy. I really enjoy solving problems like this in JavaScript. The logic is easy to break down into chunks and small steps.
+
+This was my first time using Mocha and Chai, and also my first time really using Node.js for a project. (I have previous experince with using the command line and have used a little bit of node in other projects , but not for testing).
+
+I think the learning curve for Mocha and Chai was reletively simple.
