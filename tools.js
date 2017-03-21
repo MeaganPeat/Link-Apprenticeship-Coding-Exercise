@@ -1,3 +1,4 @@
+//use this type of module
 module.exports = {
 
     // write a function to calculate costs
