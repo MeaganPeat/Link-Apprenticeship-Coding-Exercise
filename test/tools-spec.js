@@ -1,5 +1,5 @@
 var expect = require("chai").expect;
-var tools = require("../costCalculator");
+var calculator = require("../costCalculator");
 
 describe("calculateCosts()", function(){
     it("should calculate the final cost", function(){
