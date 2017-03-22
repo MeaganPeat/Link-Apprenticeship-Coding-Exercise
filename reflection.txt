@@ -1,5 +1,9 @@
 //Intro to reflection
 
+//The Solution
+
+//Other considerations
+
 //JavaScript Solution
 The problem itself was easy to understand and implement. The logic part was easy. I really enjoy solving problems like this in JavaScript. The logic is easy to break down into chunks and small steps.
 
