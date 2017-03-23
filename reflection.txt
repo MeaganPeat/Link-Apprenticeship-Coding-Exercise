@@ -1,8 +1,6 @@
-//Intro to reflection
+The Cost Calculator takes three parameters, initial price, number of people who will work on the project, and the type of product the project will work with. The calculator requires that the initial price be entered, but it assumes one person and no increased fees for materials if the other two parameters are not entered. 
 
-//The Solution
-
-//Other considerations
+The calculator could be expanded so that it can handle the initial price entered as a string, so that the function is capable of stripping out any dollar signs and commas without the user having to do it beforehand.
 
 //JavaScript Solution
 The problem itself was easy to understand and implement. The logic part was easy. I really enjoy solving problems like this in JavaScript. The logic is easy to break down into chunks and small steps.
@@ -10,12 +8,7 @@ The problem itself was easy to understand and implement. The logic part was easy
 //Mocha and Chai
 This was my first time using Mocha and Chai, and also my first time really using Node.js for a project. (I have previous experience with using the command line and have used a little bit of node in other projects, but not for testing).
 
-I think the learning curve for Mocha and Chai was pretty quick. The language used is really easy to understand since it closely resembles speech. Initially I was writing and testing my JavaScript by either opening up the file in the command line with a console.log running my file, or copying the entire code into the developer's console and then calling the "calculateCosts" function.  For either method I would match the console log or returning value with the exspected results and go from there.
+I think the learning curve for Mocha and Chai was pretty quick. The language used is really easy to understand since it closely resembles speech. Initially I was writing and testing my JavaScript by either opening up the file in the command line with a console.log running my file, or copying the entire code into the developer's console and then calling the "calculateCosts" function.  For either method I would match the console log or returning value with the expected results and go from there.
 
 //Test Driven Development
-I really wish I had known more about test driven development before starting to write my JavaScript. When I was creating my solution I did alter my JavaScript file to work with the testing, but it would have been cleaner to do the tests and the actual writing of the function together. Test driven development is definietly an approach that I plan on taking in the future. If I had simply written a JavaScript function without any tests, I don't think I would have learned much from this exercise and I value the new knowledge I have gained. Test Driven Development is an easy approach to development that I feel I can really get into.
-
-
-//GitHub
-
-//Summary
+I really wish I had known more about test driven development before starting to write my JavaScript. When I was creating my solution I did alter my JavaScript file to work with the testing, but it would have been cleaner to do the tests and the actual writing of the function together. Test driven development is definitely an approach that I plan on taking in the future. If I had simply written a JavaScript function without any tests, I don't think I would have learned much from this exercise and I value the new knowledge I have gained. Test Driven Development is an easy approach to development that I feel I can really get into.
